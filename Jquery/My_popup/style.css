@@ -1,0 +1,50 @@
+body{
+background-image: url(pesok-volnami-melkiy-priroda.jpg);
+}
+
+.btn{
+	display:block;
+	margin: 0 auto;
+	height: 100px;
+	color: Darkblue ;
+	background: #33ffba;
+	border:rigid green;
+	box-shadow: 0 0 10px #51fd1f;
+	cursor: pointer;
+	border-radius:30%;
+}
+
+#myModal {
+    width: 350px; height: 250px;
+    padding: 18px 9px;
+    border-radius: 4px;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    margin: auto;
+    display: none;
+    opacity: 0;
+    z-index: 38;
+    
+}
+
+#myModal #myModal__close {
+    width: 450px; height: 250px;
+    position: absolute;
+    font-size: 30px;
+    top: 1px; right: 11px;
+    cursor: pointer;
+	display:flex;
+	justify-content: flex-end;
+    
+	
+}
+
+#myOverlay {
+    z-index: 37;
+    position: fixed;
+    background: rgba(0,0,0,.7);
+    width: 100%; height: 100%;
+    top: 0; left: 0;
+    cursor: pointer;
+    display: none;
+}
